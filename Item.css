@@ -1,0 +1,37 @@
+ul {
+  list-style-type: none;
+}
+.item-container {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 40px;
+  padding: 10px;
+  padding-left: 20px;
+  border-radius: 2.5%;
+  transition: all ease 0.5s;
+  cursor: pointer;
+}
+.item-container:hover {
+  transition: all ease 0.5s;
+  background: #36180d;
+}
+.item-image {
+  height: 150px;
+}
+.image-container {
+  display: flex;
+  align-items: center;
+}
+.item-details {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+.item-detail {
+  font-size: 20px;
+}
+@media (max-width: 640px) {
+  .item-image {
+    height: 40px;
+  }
+}

@@ -1,0 +1,65 @@
+.Onefull-container {
+  background: #d5aa72;
+  margin: -10px;
+  padding-top: 100px;
+
+  padding-left: 40px;
+  padding-bottom: 40vh;
+}
+.content-container {
+  display: flex;
+  gap: 4em;
+}
+
+.poster-image {
+  overflow: hidden;
+  flex: 1;
+  height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.image-cover {
+  height: 60vh;
+}
+.content {
+  flex: 3;
+  padding: 10px;
+}
+.name {
+  font-size: 50px;
+  text-transform: uppercase;
+}
+.author {
+  margin-top: 0px;
+  font-size: 20px;
+}
+.genre {
+  margin-top: 40px;
+  font-size: 25px;
+}
+.rating {
+  margin-top: 5px;
+  font-size: 25px;
+}
+.review {
+  margin-top: 30px;
+  font-size: 25px;
+  padding-right: 50px;
+}
+.star {
+  color: #3b271d;
+}
+@media (max-width: 1000px) {
+  .image-cover {
+    height: 20vh;
+    width: 10vh;
+  }
+  .poster-image {
+    height: 20vh;
+  }
+  .Onefull-container {
+    height: 55.5vh;
+    padding-top: 200px;
+  }
+}

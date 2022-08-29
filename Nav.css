@@ -1,0 +1,56 @@
+.Nav-container {
+  position: fixed;
+  display: flex;
+  gap: 2em;
+  width: 100vw;
+  margin-left: -10px;
+  font-size: 25px;
+  padding: 15px;
+  padding-left: 30px;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-family: Georgia;
+  z-index: 2;
+}
+.size1 {
+  flex: 1;
+}
+
+.size2 {
+  flex: 20;
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 50px;
+}
+.home {
+  transition: all ease 0.3s;
+  cursor: pointer;
+}
+.home:hover {
+  transition: all ease 0.3s;
+  color: #36180d;
+}
+.add {
+  transition: all ease 0.3s;
+  cursor: pointer;
+}
+.add:hover {
+  transition: all ease 0.3s;
+  color: #36180d;
+}
+.profile {
+  transition: all ease 0.3s;
+  margin-top: 0px;
+  cursor: pointer;
+}
+.profile:hover {
+  transition: all ease 0.3s;
+  color: #36180d;
+}
+@media (max-width: 1000px) {
+  .Nav-container {
+    padding: 40px;
+    font-size: 40px;
+  }
+}

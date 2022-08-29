@@ -1,0 +1,28 @@
+.home-bg {
+  width: 250vh;
+}
+.bg-container {
+  margin: -10px;
+  height: 90vh;
+  overflow: hidden;
+}
+.line1 {
+  position: absolute;
+  top: 20%;
+  left: 5%;
+  font-size: 60px;
+  width: 50vw;
+  color: white;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: 500;
+}
+@media (max-width: 1000px) {
+  .bg-container {
+    height: 40vh;
+  }
+  .line1 {
+    font-size: 80px;
+    width: 80vw;
+    top: 10%;
+  }
+}
